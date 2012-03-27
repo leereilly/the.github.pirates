@@ -141,7 +141,7 @@ Once your project has been submitted through the form below, it will be reviewed
 
 <div class="cta">
 <div class="button-container">
-<a href="#" class="button violet chunky big-link" data-reveal-id="myModal" data-animation="none">READ THE ARTICLE 'WHAT CONSTITUTES QUALITY'</a>
+<a href="javascript:" class="button violet chunky big-link" data-reveal-id="myModal" data-animation="none">READ THE ARTICLE 'WHAT CONSTITUTES QUALITY'</a>
 </div>
 </div>
 
@@ -285,7 +285,7 @@ If this project has helped you in anyway, <cite title="David Higgins">The Curato
 </ul>
 
 <div class="button-container">
-<a class="shareit button violet chunky ">KTHXBAI</a>
+<a class="close-reveal-modal button violet chunky" href="#" title="bai">KTHXBAI</a>
 </div>
 
 </div>
@@ -358,7 +358,7 @@ $(function () {
         len = links.length,
         i;
     for (i = len; i--;) {
-        if (!links[i].title.match(/top|shar/)) {
+        if (!links[i].title.match(/top|shar|bai/)) {
             links[i].target = '_blank';
         }
     }
