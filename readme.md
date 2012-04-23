@@ -176,77 +176,107 @@ Each file presented here is the same file:
 - zacstewart-Meow-50c4f12
 - zurb-reveal-f9badce
 
+Live, Online Demos:
+
+- [http://iwantaneff.in/repo/plugins/github-demos/color-thief/index.html][13]
+- [http://iwantaneff.in/repo/plugins/github-demos/css3-social-signin-buttons/index.html][14]
+- [http://iwantaneff.in/repo/plugins/github-demos/dzslides/index.html][15]
+- [http://iwantaneff.in/repo/plugins/github-demos/flexselect/index.html][16]
+- [http://iwantaneff.in/repo/plugins/github-demos/fontselect/index.html][17]
+- [http://iwantaneff.in/repo/plugins/github-demos/hideall-tabs/index.html][18]
+- [http://iwantaneff.in/repo/plugins/github-demos/html-minifier/index.html][19]
+- [http://iwantaneff.in/repo/plugins/github-demos/ice/index.html][20]
+- [http://iwantaneff.in/repo/plugins/github-demos/kix/index.html][21]
+- [http://iwantaneff.in/repo/plugins/github-demos/noisy/index.html][22]
+- [http://iwantaneff.in/repo/plugins/github-demos/pagify/index.html][23]
+- [http://iwantaneff.in/repo/plugins/github-demos/path-menu/index.html][24]
+- [http://iwantaneff.in/repo/plugins/github-demos/progress-polyfill/index.html][25]
+- [http://iwantaneff.in/repo/plugins/github-demos/push-it/index.html][26]
+- [http://iwantaneff.in/repo/plugins/github-demos/simple-tooltip/index.html][27]
+- [http://iwantaneff.in/repo/plugins/github-demos/slang/index.html][28]
+- [http://iwantaneff.in/repo/plugins/github-demos/tinycon/index.html][29]
+- [http://iwantaneff.in/repo/plugins/github-demos/tinyrange/index.html][30]
+- [http://iwantaneff.in/repo/plugins/github-demos/unicons/index.html][31]
+- [http://iwantaneff.in/repo/plugins/github-demos/social.bookmarks/index.html][32]
+- [http://iwantaneff.in/repo/plugins/github-demos/add.clear/index.html][33]
+- [http://iwantaneff.in/repo/plugins/github-demos/frame.js/index.html][34]
+- [http://iwantaneff.in/repo/plugins/github-demos/glisse.js/index.html][35]
+- [http://iwantaneff.in/repo/plugins/github-demos/grumble.js/index.html][36]
+- [http://iwantaneff.in/repo/plugins/github-demos/slider.js/index.html][37]
+- [http://iwantaneff.in/repo/plugins/github-demos/swipe.js/index.html][38]
+- [http://iwantaneff.in/repo/plugins/github-demos/turn.js/index.html][39]
+
 Readmes
 
-- [http://pirate.calepin.co/formalize.html][13]
-- [http://pirate.calepin.co/html5-please.html][14]
-- [http://pirate.calepin.co/imgpreload.html][15]
-- [http://pirate.calepin.co/isotope-an-exquisite-jquery-plugin-for-magical-layouts.html][16]
-- [http://pirate.calepin.co/jan-moesens-bookmarklets.html][17]
-- [http://pirate.calepin.co/jquery-collapse.html][18]
-- [http://pirate.calepin.co/jquery-impromptu.html][19]
-- [http://pirate.calepin.co/jquery-livetwitter.html][20]
-- [http://pirate.calepin.co/jquery-meow.html][21]
-- [http://pirate.calepin.co/jquery-scroll-path.html][22]
-- [http://pirate.calepin.co/jquery-tiny-range.html][23]
-- [http://pirate.calepin.co/jquery-transit.html][24]
-- [http://pirate.calepin.co/jqueryaddsocial.html][25]
-- [http://pirate.calepin.co/jquerygoogleplusonejs.html][26]
-- [http://pirate.calepin.co/jrumble-v13.html][27]
-- [http://pirate.calepin.co/kix-standalone-editor.html][28]
-- [http://pirate.calepin.co/overscroll.html][29]
-- [http://pirate.calepin.co/packify-something-like-a-javascript-packer.html][30]
-- [http://pirate.calepin.co/path-menu.html][31]
-- [http://pirate.calepin.co/push-it-pure-css-push-buttons.html][32]
-- [http://pirate.calepin.co/responsiveslidesjs.html][33]
-- [http://pirate.calepin.co/reveal.html][34]
-- [http://pirate.calepin.co/sausage.html][35]
-- [http://pirate.calepin.co/scm-music-player.html][36]
-- [http://pirate.calepin.co/scrollorama.html][37]
-- [http://pirate.calepin.co/select2buttons-jquery-plugin.html][38]
-- [http://pirate.calepin.co/simple-tooltip-for-jquery.html][39]
-- [http://pirate.calepin.co/sisyphus.html][40]
-- [http://pirate.calepin.co/slang.html][41]
-- [http://pirate.calepin.co/sliderjs.html][42]
-- [http://pirate.calepin.co/smoke-js.html][43]
-- [http://pirate.calepin.co/stickysectionheaders.html][44]
-- [http://pirate.calepin.co/swipe.html][45]
-- [http://pirate.calepin.co/textualizer.html][46]
-- [http://pirate.calepin.co/tinycon.html][47]
-- [http://pirate.calepin.co/tinynavjs.html][48]
-- [http://pirate.calepin.co/turnjs.html][49]
-- [http://pirate.calepin.co/unicons.html][50]
-- [http://pirate.calepin.co/uniform.html][51]
-- [http://pirate.calepin.co/urijs.html][52]
-- [http://pirate.calepin.co/zocial-a-css3-social-buttons-sass-framework.html][53]
-- [http://pirate.calepin.co/autobrowse.html][54]
-- [http://pirate.calepin.co/cabin-css-framework.html][55]
-- [http://pirate.calepin.co/coderdeck.html][56]
-- [http://pirate.calepin.co/color-thief.html][57]
-- [http://pirate.calepin.co/css3-social-sign-in-buttons.html][58]
-- [http://pirate.calepin.co/cutterjs.html][59]
-- [http://pirate.calepin.co/escapesjs.html][60]
-- [http://pirate.calepin.co/flexselect.html][61]
-- [http://pirate.calepin.co/glissejs.html][62]
-- [http://pirate.calepin.co/html5-boilerplate.html][63]
-- [http://pirate.calepin.co/html5-details.html][64]
-- [http://pirate.calepin.co/html5-placeholder-jquery-plugin.html][65]
-- [http://pirate.calepin.co/htmlminifier.html][66]
-- [http://pirate.calepin.co/humanejs.html][67]
-- [http://pirate.calepin.co/jbar.html][68]
-- [http://pirate.calepin.co/jqmessagebar.html][69]
-- [http://pirate.calepin.co/jquery-proquo.html][70]
-- [http://pirate.calepin.co/jquery-ui-bootstrap.html][71]
-- [http://pirate.calepin.co/jquery-url-parser-v20.html][72]
-- [http://pirate.calepin.co/jquerymentionsinput.html][73]
-- [http://pirate.calepin.co/js-logo.html][74]
-- [http://pirate.calepin.co/neteye-activity-indicator.html][75]
-- [http://pirate.calepin.co/noisy.html][76]
-- [http://pirate.calepin.co/push-it-pure-css-push-buttons.html][77]
-- [http://pirate.calepin.co/responsiveslidesjs.html][78]
-- [http://pirate.calepin.co/resumablejs.html][79]
-- [http://pirate.calepin.co/stickysectionheaders.html][80]
-- [http://pirate.calepin.co/webshims-lib.html][81]
+- [http://pirate.calepin.co/formalize.html][40]
+- [http://pirate.calepin.co/html5-please.html][41]
+- [http://pirate.calepin.co/imgpreload.html][42]
+- [http://pirate.calepin.co/isotope-an-exquisite-jquery-plugin-for-magical-layouts.html][43]
+- [http://pirate.calepin.co/jan-moesens-bookmarklets.html][44]
+- [http://pirate.calepin.co/jquery-collapse.html][45]
+- [http://pirate.calepin.co/jquery-impromptu.html][46]
+- [http://pirate.calepin.co/jquery-livetwitter.html][47]
+- [http://pirate.calepin.co/jquery-meow.html][48]
+- [http://pirate.calepin.co/jquery-scroll-path.html][49]
+- [http://pirate.calepin.co/jquery-tiny-range.html][50]
+- [http://pirate.calepin.co/jquery-transit.html][51]
+- [http://pirate.calepin.co/jqueryaddsocial.html][52]
+- [http://pirate.calepin.co/jquerygoogleplusonejs.html][53]
+- [http://pirate.calepin.co/jrumble-v13.html][54]
+- [http://pirate.calepin.co/kix-standalone-editor.html][55]
+- [http://pirate.calepin.co/overscroll.html][56]
+- [http://pirate.calepin.co/packify-something-like-a-javascript-packer.html][57]
+- [http://pirate.calepin.co/path-menu.html][58]
+- [http://pirate.calepin.co/push-it-pure-css-push-buttons.html][59]
+- [http://pirate.calepin.co/responsiveslidesjs.html][60]
+- [http://pirate.calepin.co/reveal.html][61]
+- [http://pirate.calepin.co/sausage.html][62]
+- [http://pirate.calepin.co/scm-music-player.html][63]
+- [http://pirate.calepin.co/scrollorama.html][64]
+- [http://pirate.calepin.co/select2buttons-jquery-plugin.html][65]
+- [http://pirate.calepin.co/simple-tooltip-for-jquery.html][66]
+- [http://pirate.calepin.co/sisyphus.html][67]
+- [http://pirate.calepin.co/slang.html][68]
+- [http://pirate.calepin.co/sliderjs.html][69]
+- [http://pirate.calepin.co/smoke-js.html][70]
+- [http://pirate.calepin.co/stickysectionheaders.html][71]
+- [http://pirate.calepin.co/swipe.html][72]
+- [http://pirate.calepin.co/textualizer.html][73]
+- [http://pirate.calepin.co/tinycon.html][74]
+- [http://pirate.calepin.co/tinynavjs.html][75]
+- [http://pirate.calepin.co/turnjs.html][76]
+- [http://pirate.calepin.co/unicons.html][77]
+- [http://pirate.calepin.co/uniform.html][78]
+- [http://pirate.calepin.co/urijs.html][79]
+- [http://pirate.calepin.co/zocial-a-css3-social-buttons-sass-framework.html][80]
+- [http://pirate.calepin.co/autobrowse.html][81]
+- [http://pirate.calepin.co/cabin-css-framework.html][82]
+- [http://pirate.calepin.co/coderdeck.html][83]
+- [http://pirate.calepin.co/color-thief.html][84]
+- [http://pirate.calepin.co/css3-social-sign-in-buttons.html][85]
+- [http://pirate.calepin.co/cutterjs.html][86]
+- [http://pirate.calepin.co/escapesjs.html][87]
+- [http://pirate.calepin.co/flexselect.html][88]
+- [http://pirate.calepin.co/glissejs.html][89]
+- [http://pirate.calepin.co/html5-boilerplate.html][90]
+- [http://pirate.calepin.co/html5-details.html][91]
+- [http://pirate.calepin.co/html5-placeholder-jquery-plugin.html][92]
+- [http://pirate.calepin.co/htmlminifier.html][93]
+- [http://pirate.calepin.co/humanejs.html][94]
+- [http://pirate.calepin.co/jbar.html][95]
+- [http://pirate.calepin.co/jqmessagebar.html][96]
+- [http://pirate.calepin.co/jquery-proquo.html][97]
+- [http://pirate.calepin.co/jquery-ui-bootstrap.html][98]
+- [http://pirate.calepin.co/jquery-url-parser-v20.html][99]
+- [http://pirate.calepin.co/jquerymentionsinput.html][100]
+- [http://pirate.calepin.co/js-logo.html][101]
+- [http://pirate.calepin.co/neteye-activity-indicator.html][102]
+- [http://pirate.calepin.co/noisy.html][103]
+- [http://pirate.calepin.co/push-it-pure-css-push-buttons.html][104]
+- [http://pirate.calepin.co/responsiveslidesjs.html][105]
+- [http://pirate.calepin.co/resumablejs.html][106]
+- [http://pirate.calepin.co/stickysectionheaders.html][107]
+- [http://pirate.calepin.co/webshims-lib.html][108]
 
 
 
@@ -303,72 +333,99 @@ Readmes
   [10]: http://isharefil.es/G3pE
   [11]: http://isharefil.es/G2uu
   [12]: http://isharefil.es/G4Bg
-  [13]: http://pirate.calepin.co/formalize.html
-  [14]: http://pirate.calepin.co/html5-please.html
-  [15]: http://pirate.calepin.co/imgpreload.html
-  [16]: http://pirate.calepin.co/isotope-an-exquisite-jquery-plugin-for-magical-layouts.html
-  [17]: http://pirate.calepin.co/jan-moesens-bookmarklets.html
-  [18]: http://pirate.calepin.co/jquery-collapse.html
-  [19]: http://pirate.calepin.co/jquery-impromptu.html
-  [20]: http://pirate.calepin.co/jquery-livetwitter.html
-  [21]: http://pirate.calepin.co/jquery-meow.html
-  [22]: http://pirate.calepin.co/jquery-scroll-path.html
-  [23]: http://pirate.calepin.co/jquery-tiny-range.html
-  [24]: http://pirate.calepin.co/jquery-transit.html
-  [25]: http://pirate.calepin.co/jqueryaddsocial.html
-  [26]: http://pirate.calepin.co/jquerygoogleplusonejs.html
-  [27]: http://pirate.calepin.co/jrumble-v13.html
-  [28]: http://pirate.calepin.co/kix-standalone-editor.html
-  [29]: http://pirate.calepin.co/overscroll.html
-  [30]: http://pirate.calepin.co/packify-something-like-a-javascript-packer.html
-  [31]: http://pirate.calepin.co/path-menu.html
-  [32]: http://pirate.calepin.co/push-it-pure-css-push-buttons.html
-  [33]: http://pirate.calepin.co/responsiveslidesjs.html
-  [34]: http://pirate.calepin.co/reveal.html
-  [35]: http://pirate.calepin.co/sausage.html
-  [36]: http://pirate.calepin.co/scm-music-player.html
-  [37]: http://pirate.calepin.co/scrollorama.html
-  [38]: http://pirate.calepin.co/select2buttons-jquery-plugin.html
-  [39]: http://pirate.calepin.co/simple-tooltip-for-jquery.html
-  [40]: http://pirate.calepin.co/sisyphus.html
-  [41]: http://pirate.calepin.co/slang.html
-  [42]: http://pirate.calepin.co/sliderjs.html
-  [43]: http://pirate.calepin.co/smoke-js.html
-  [44]: http://pirate.calepin.co/stickysectionheaders.html
-  [45]: http://pirate.calepin.co/swipe.html
-  [46]: http://pirate.calepin.co/textualizer.html
-  [47]: http://pirate.calepin.co/tinycon.html
-  [48]: http://pirate.calepin.co/tinynavjs.html
-  [49]: http://pirate.calepin.co/turnjs.html
-  [50]: http://pirate.calepin.co/unicons.html
-  [51]: http://pirate.calepin.co/uniform.html
-  [52]: http://pirate.calepin.co/urijs.html
-  [53]: http://pirate.calepin.co/zocial-a-css3-social-buttons-sass-framework.html
-  [54]: http://pirate.calepin.co/autobrowse.html
-  [55]: http://pirate.calepin.co/cabin-css-framework.html
-  [56]: http://pirate.calepin.co/coderdeck.html
-  [57]: http://pirate.calepin.co/color-thief.html
-  [58]: http://pirate.calepin.co/css3-social-sign-in-buttons.html
-  [59]: http://pirate.calepin.co/cutterjs.html
-  [60]: http://pirate.calepin.co/escapesjs.html
-  [61]: http://pirate.calepin.co/flexselect.html
-  [62]: http://pirate.calepin.co/glissejs.html
-  [63]: http://pirate.calepin.co/html5-boilerplate.html
-  [64]: http://pirate.calepin.co/html5-details.html
-  [65]: http://pirate.calepin.co/html5-placeholder-jquery-plugin.html
-  [66]: http://pirate.calepin.co/htmlminifier.html
-  [67]: http://pirate.calepin.co/humanejs.html
-  [68]: http://pirate.calepin.co/jbar.html
-  [69]: http://pirate.calepin.co/jqmessagebar.html
-  [70]: http://pirate.calepin.co/jquery-proquo.html
-  [71]: http://pirate.calepin.co/jquery-ui-bootstrap.html
-  [72]: http://pirate.calepin.co/jquery-url-parser-v20.html
-  [73]: http://pirate.calepin.co/jquerymentionsinput.html
-  [74]: http://pirate.calepin.co/js-logo.html
-  [75]: http://pirate.calepin.co/neteye-activity-indicator.html
-  [76]: http://pirate.calepin.co/noisy.html
-  [77]: http://pirate.calepin.co/push-it-pure-css-push-buttons.html
-  [78]: http://pirate.calepin.co/responsiveslidesjs.html
-  [79]: http://pirate.calepin.co/resumablejs.html
-  [80]: http://pirate.calepin.co/stickysectionheaders.html
-  [81]: http://pirate.calepin.co/webshims-lib.html
+  [13]: http://iwantaneff.in/repo/plugins/github-demos/color-thief/index.html
+  [14]: http://iwantaneff.in/repo/plugins/github-demos/css3-social-signin-buttons/index.html
+  [15]: http://iwantaneff.in/repo/plugins/github-demos/dzslides/index.html
+  [16]: http://iwantaneff.in/repo/plugins/github-demos/flexselect/index.html
+  [17]: http://iwantaneff.in/repo/plugins/github-demos/fontselect/index.html
+  [18]: http://iwantaneff.in/repo/plugins/github-demos/hideall-tabs/index.html
+  [19]: http://iwantaneff.in/repo/plugins/github-demos/html-minifier/index.html
+  [20]: http://iwantaneff.in/repo/plugins/github-demos/ice/index.html
+  [21]: http://iwantaneff.in/repo/plugins/github-demos/kix/index.html
+  [22]: http://iwantaneff.in/repo/plugins/github-demos/noisy/index.html
+  [23]: http://iwantaneff.in/repo/plugins/github-demos/pagify/index.html
+  [24]: http://iwantaneff.in/repo/plugins/github-demos/path-menu/index.html
+  [25]: http://iwantaneff.in/repo/plugins/github-demos/progress-polyfill/index.html
+  [26]: http://iwantaneff.in/repo/plugins/github-demos/push-it/index.html
+  [27]: http://iwantaneff.in/repo/plugins/github-demos/simple-tooltip/index.html
+  [28]: http://iwantaneff.in/repo/plugins/github-demos/slang/index.html
+  [29]: http://iwantaneff.in/repo/plugins/github-demos/tinycon/index.html
+  [30]: http://iwantaneff.in/repo/plugins/github-demos/tinyrange/index.html
+  [31]: http://iwantaneff.in/repo/plugins/github-demos/unicons/index.html
+  [32]: http://iwantaneff.in/repo/plugins/github-demos/social.bookmarks/index.html
+  [33]: http://iwantaneff.in/repo/plugins/github-demos/add.clear/index.html
+  [34]: http://iwantaneff.in/repo/plugins/github-demos/frame.js/index.html
+  [35]: http://iwantaneff.in/repo/plugins/github-demos/glisse.js/index.html
+  [36]: http://iwantaneff.in/repo/plugins/github-demos/grumble.js/index.html
+  [37]: http://iwantaneff.in/repo/plugins/github-demos/slider.js/index.html
+  [38]: http://iwantaneff.in/repo/plugins/github-demos/swipe.js/index.html
+  [39]: http://iwantaneff.in/repo/plugins/github-demos/turn.js/index.html
+  [40]: http://pirate.calepin.co/formalize.html
+  [41]: http://pirate.calepin.co/html5-please.html
+  [42]: http://pirate.calepin.co/imgpreload.html
+  [43]: http://pirate.calepin.co/isotope-an-exquisite-jquery-plugin-for-magical-layouts.html
+  [44]: http://pirate.calepin.co/jan-moesens-bookmarklets.html
+  [45]: http://pirate.calepin.co/jquery-collapse.html
+  [46]: http://pirate.calepin.co/jquery-impromptu.html
+  [47]: http://pirate.calepin.co/jquery-livetwitter.html
+  [48]: http://pirate.calepin.co/jquery-meow.html
+  [49]: http://pirate.calepin.co/jquery-scroll-path.html
+  [50]: http://pirate.calepin.co/jquery-tiny-range.html
+  [51]: http://pirate.calepin.co/jquery-transit.html
+  [52]: http://pirate.calepin.co/jqueryaddsocial.html
+  [53]: http://pirate.calepin.co/jquerygoogleplusonejs.html
+  [54]: http://pirate.calepin.co/jrumble-v13.html
+  [55]: http://pirate.calepin.co/kix-standalone-editor.html
+  [56]: http://pirate.calepin.co/overscroll.html
+  [57]: http://pirate.calepin.co/packify-something-like-a-javascript-packer.html
+  [58]: http://pirate.calepin.co/path-menu.html
+  [59]: http://pirate.calepin.co/push-it-pure-css-push-buttons.html
+  [60]: http://pirate.calepin.co/responsiveslidesjs.html
+  [61]: http://pirate.calepin.co/reveal.html
+  [62]: http://pirate.calepin.co/sausage.html
+  [63]: http://pirate.calepin.co/scm-music-player.html
+  [64]: http://pirate.calepin.co/scrollorama.html
+  [65]: http://pirate.calepin.co/select2buttons-jquery-plugin.html
+  [66]: http://pirate.calepin.co/simple-tooltip-for-jquery.html
+  [67]: http://pirate.calepin.co/sisyphus.html
+  [68]: http://pirate.calepin.co/slang.html
+  [69]: http://pirate.calepin.co/sliderjs.html
+  [70]: http://pirate.calepin.co/smoke-js.html
+  [71]: http://pirate.calepin.co/stickysectionheaders.html
+  [72]: http://pirate.calepin.co/swipe.html
+  [73]: http://pirate.calepin.co/textualizer.html
+  [74]: http://pirate.calepin.co/tinycon.html
+  [75]: http://pirate.calepin.co/tinynavjs.html
+  [76]: http://pirate.calepin.co/turnjs.html
+  [77]: http://pirate.calepin.co/unicons.html
+  [78]: http://pirate.calepin.co/uniform.html
+  [79]: http://pirate.calepin.co/urijs.html
+  [80]: http://pirate.calepin.co/zocial-a-css3-social-buttons-sass-framework.html
+  [81]: http://pirate.calepin.co/autobrowse.html
+  [82]: http://pirate.calepin.co/cabin-css-framework.html
+  [83]: http://pirate.calepin.co/coderdeck.html
+  [84]: http://pirate.calepin.co/color-thief.html
+  [85]: http://pirate.calepin.co/css3-social-sign-in-buttons.html
+  [86]: http://pirate.calepin.co/cutterjs.html
+  [87]: http://pirate.calepin.co/escapesjs.html
+  [88]: http://pirate.calepin.co/flexselect.html
+  [89]: http://pirate.calepin.co/glissejs.html
+  [90]: http://pirate.calepin.co/html5-boilerplate.html
+  [91]: http://pirate.calepin.co/html5-details.html
+  [92]: http://pirate.calepin.co/html5-placeholder-jquery-plugin.html
+  [93]: http://pirate.calepin.co/htmlminifier.html
+  [94]: http://pirate.calepin.co/humanejs.html
+  [95]: http://pirate.calepin.co/jbar.html
+  [96]: http://pirate.calepin.co/jqmessagebar.html
+  [97]: http://pirate.calepin.co/jquery-proquo.html
+  [98]: http://pirate.calepin.co/jquery-ui-bootstrap.html
+  [99]: http://pirate.calepin.co/jquery-url-parser-v20.html
+  [100]: http://pirate.calepin.co/jquerymentionsinput.html
+  [101]: http://pirate.calepin.co/js-logo.html
+  [102]: http://pirate.calepin.co/neteye-activity-indicator.html
+  [103]: http://pirate.calepin.co/noisy.html
+  [104]: http://pirate.calepin.co/push-it-pure-css-push-buttons.html
+  [105]: http://pirate.calepin.co/responsiveslidesjs.html
+  [106]: http://pirate.calepin.co/resumablejs.html
+  [107]: http://pirate.calepin.co/stickysectionheaders.html
+  [108]: http://pirate.calepin.co/webshims-lib.html
