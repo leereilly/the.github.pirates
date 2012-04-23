@@ -8,8 +8,6 @@ Website: [http://codepirat.es/][2]
 
 Current Plunder Count: 100 Items
 
-Chest (Latest): [https://github.com/downloads/higgo/the.github.pirates/chest-23-04-12.zip][3]
-
 Blogpost: [http://r3versin.com/blog/the-github-pirates/][4]
 
 Last Updated: February 12, 2012
