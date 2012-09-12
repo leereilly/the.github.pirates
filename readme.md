@@ -6,7 +6,7 @@ Author: [David Higgins][1]
 
 Website: [http://codepirat.es/][2]
 
-Current Plunder Count: 100 Items
+Current Plunder Count: 130 Items
 
 Blogpost: [http://r3versin.com/blog/the-github-pirates/][4]
 
