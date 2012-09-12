@@ -10,6 +10,8 @@ Current Plunder Count: 100 Items
 
 Blogpost: [http://r3versin.com/blog/the-github-pirates/][4]
 
+S3 Listing of all plunders: [http://s3.codepirat.es.s3.amazonaws.com/index.html](http://s3.codepirat.es.s3.amazonaws.com/index.html)
+
 Last Updated: February 12, 2012
 
 You are browsing the Github home of **The Github Pirates**
@@ -66,12 +68,14 @@ Once your project has been submitted through the site it will be reviewed by The
 
 Each file presented here is the same file:
 
- * [http://isharefil.es/G3DQ][9]
- * [http://isharefil.es/G3pE][10]
- * [http://isharefil.es/G2uu][11]
- * [http://isharefil.es/G4Bg][12]
+ * [http://isharefil.es/JP6u][9]
+ * [https://www.box.com/s/mv0qstblqjou0yb8z5f4][10]
+ * [http://s3.codepirat.es.s3.amazonaws.com/chest-12-SEP-2012.zip][11]
+ * [http://dl.dropbox.com/u/81526473/download/chest-12-SEP-2012.zip][12]
 
-#### Chest Contents (100+) Items added:
+#### Chest Contents (130+) Items added:
+
+**I am no longer maintaining this list **
 
 - 23-resumable.js-d8f53e2
 - adamstac-zocial-0.0.3-1-gfe0fe91
@@ -327,10 +331,10 @@ Readmes
   [6]: http://codepirat.es/
   [7]: http://gitlabhq.com/
   [8]: https://gist.github.com/1809637
-  [9]: http://isharefil.es/G3DQ
-  [10]: http://isharefil.es/G3pE
-  [11]: http://isharefil.es/G2uu
-  [12]: http://isharefil.es/G4Bg
+  [9]: http://isharefil.es/JP6u
+  [10]: https://www.box.com/s/mv0qstblqjou0yb8z5f4
+  [11]: http://s3.codepirat.es.s3.amazonaws.com/index.html
+  [12]: http://dl.dropbox.com/u/81526473/download/chest-12-SEP-2012.zip
   [13]: http://iwantaneff.in/repo/plugins/github-demos/color-thief/index.html
   [14]: http://iwantaneff.in/repo/plugins/github-demos/css3-social-signin-buttons/index.html
   [15]: http://iwantaneff.in/repo/plugins/github-demos/dzslides/index.html

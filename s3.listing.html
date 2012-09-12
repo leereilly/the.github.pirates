@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="description" content="Amazon S3 Listing for items in The Github Pirates" /> 
+
+<title>codepirat.es | S3 File Listing</title>
+
+<style>
+a {
+color: #77aaff;
+text-decoration: none;
+}
+ 
+a:hover {
+color: #88bbff;
+text-decoration: underline;
+}
+
+a#viewSource {
+display: block;
+margin: 30px 0 0 0; 
+border-top: 1px solid #999;
+padding: 20px 0 0 0;
+}
+ 
+div .links a {
+display: block;
+line-height: 2em; 
+}
+
+body {
+background: #666;
+font-family: Arial, sans-serif;
+padding: 50px;
+}
+
+button {
+margin: 0 10px 0 0;
+/* 
+padding: 5px;
+min-width: 70px;
+font-size: 1.2em;
+ */
+}
+
+button[disabled] {
+color: white;
+}
+ 
+div#container {
+background: #000;
+margin: 0 auto 0 auto;
+padding: 20px 30px 20px 30px;
+max-width: 720px;
+}
+ 
+* html div#container {
+width: 540px;
+}
+ 
+h1 {
+border-bottom: 1px solid #aaa;
+color: white;
+font-family: Arial, sans-serif;
+margin: 0 0 30px 0;
+padding: 0 0 10px 0;
+}
+ 
+h2 {
+color: #ccc;
+font-family: Arial, sans-serif;
+margin: 30px 0 0 0;
+}
+
+html {
+/* avoid annoying page width change 
+when moving from the home page */
+overflow-y: scroll;
+}
+ 
+img {
+border: none;
+}
+ 
+p {
+color: #eee;
+font-size: 18px;
+line-height: 1.2em;
+}
+
+p#data {
+font-family: monospace;
+line-height: 1.2em;
+max-height: 150px;
+overflow-y: auto;
+}
+
+p.borderBelow {
+border-bottom: 1px solid #aaa;
+padding: 0 0 20px 0;
+}
+
+video {
+background: #222;
+width: 720px;
+}
+</style>
+<script>
+
+//document.write(window.location.search);
+
+function getSpace(s,l){
+var ret = "";
+while(s.length+ret.length<l){
+  ret = ret + " ";
+}
+return ret;
+}
+
+
+location.querystring = (function() {
+	// The return is a collection of key/value pairs
+	var result = {};
+
+	// Gets the query string with a preceeding '?'
+	var querystring = location.search;
+
+	// document.location.search is empty if a query string is absent
+	if (!querystring)
+		return result;
+
+	// substring(1) to remove the '?'
+	var pairs = querystring.substring(1).split("&");
+	var splitPair;
+
+	// Load the key/values of the return collection
+	for (var i = 0; i < pairs.length; i++) {
+		splitPair = pairs[i].split("=");
+		result[splitPair[0]] = splitPair[1];
+	}
+
+	return result;
+})();
+
+function createRequestObject(){
+	var request_o; //declare the variable to hold the object.
+	var browser = navigator.appName; //find the browser name
+	if(browser == "Microsoft Internet Explorer"){
+		/* Create the object using MSIE's method */
+		request_o = new ActiveXObject("Microsoft.XMLHTTP");
+	}else{
+		/* Create the object using other browser's method */
+		request_o = new XMLHttpRequest();
+	}
+	return request_o; //return the object
+}
+
+/* You can get more specific with version information by using 
+	parseInt(navigator.appVersion)
+	Which will extract an integer value containing the version 
+	of the browser being used.
+*/
+/* The variable http will hold our new XMLHttpRequest object. */
+var http = createRequestObject(); 
+function getList(){
+	http.open('get', location.protocol+'//'+location.hostname);
+	http.onreadystatechange = handleList; 
+	http.send(null);
+}
+
+function handleList(){
+	/* Make sure that the transaction has finished. The XMLHttpRequest object 
+		has a property called readyState with several states:
+		0: Uninitialized
+		1: Loading
+		2: Loaded
+		3: Interactive
+		4: Finished */
+	if(http.readyState == 4){ //Finished loading the response
+		/* We have got the response from the server-side script,
+			let's see just what it was. using the responseText property of 
+			the XMLHttpRequest object. */
+		var response = http.responseXML;
+
+filex = response.getElementsByTagName('Contents');
+
+
+res = '';
+fileList = new Array();
+for(i=0; i<filex.length; i++){ 
+        fileData =new Array();
+        fileList[i] = fileData;
+	size = filex[i].getElementsByTagName('Size')[0].firstChild.data;
+	name = filex[i].getElementsByTagName('Key')[0].firstChild.data;
+	lastmod = filex[i].getElementsByTagName('LastModified')[0].firstChild.data;
+        link = "<A HREF=\""+name+"\">"+name+"</A>";
+        fileData[0] = name;
+        fileData[1] = size;
+        fileData[2] = lastmod;
+        fileData[3] = link;
+}
+fileList.sort(getSort());
+//document.write(getSort());
+for(i=0; i<fileList.length; i++){ //length is the same as count($array)
+        fileData = fileList[i];
+        name = fileData[0];
+        size = fileData[1];
+        lastmod = fileData[2];
+        link = fileData[3];
+        res = res +  getSpace(size,15) +size + " B ";
+        res = res + " "+ getSpace(lastmod,20)+ lastmod + " ";
+        res = res + " "+ link+ getSpace(name,50) + " ";
+        res = res + "<BR>";
+}
+
+
+		document.getElementById('bucket_list').innerHTML = "<PRE>"+getLink()+"<BR>"+res+"</PRE>"  ;
+	}
+}
+
+
+function getQueryVariable(variable) {
+var query = window.location.search.substring(1);
+var vars = query.split("&");
+for (var i=0;i<vars.length;i++) {
+var pair = vars[i].split("=");
+if (pair[0] == variable) {
+return pair[1];
+}
+} 
+return null;
+}
+
+
+function sortSize(a,b) { 
+   if(parseInt(a[1]) > parseInt(b[1])) return 1;
+   if(parseInt(a[1]) < parseInt(b[1])) return -1;
+   return 0;
+ }
+function sortSizeDesc(a,b) { return (-sortSize(a,b)); }
+function sortLastmod(a,b) {
+   if(a[2] > b[2]) return 1;
+   if(a[2] < b[2]) return -1;
+   return 0;
+}
+function sortLastmodDesc(a,b) { return (-sortLastmod(a,b)); }
+
+function sortName(a,b) { 
+   if(a[0] > b[0]) return 1;
+   if(a[0] < b[0]) return -1;
+   return 0;
+}
+function sortNameDesc(a,b) { return -sortName(a,b); }
+//document.write('http://'+location.hostname);
+
+function getSort(){
+  var s = getQueryVariable("sort");
+  var d = getQueryVariable("sortdir");
+  if(s=='size'){ return d == 'desc' ? sortSizeDesc : sortSize};
+  if(s=='name'){ return d == 'desc' ? sortNameDesc : sortName};
+  if(s=='lastmod'){ return d == 'desc' ? sortLastmodDesc : sortLastmod};
+  return sortName;
+}
+
+
+function getLink(){
+  return "             "+getLinkSize() + "  " + getLinkLastmod() + "              " + getLinkName() + "   " ;
+}
+
+function getNextSortDir(sortCol){
+  if (sortCol == getQueryVariable("sort")) 
+      return getQueryVariable("sortdir") == 'desc' ? 'asc' : 'desc';
+  return 'asc'
+}
+
+function getLinkSize(){
+  return "<A HREF=\"?sort=size&sortdir=" +getNextSortDir('size') +"\">Size</A>";
+}
+function getLinkName(){
+  return "<A HREF=\"?sort=name&sortdir=" +getNextSortDir('name') +"\">Name</A>";
+}
+function getLinkLastmod(){
+  return "<A HREF=\"?sort=lastmod&sortdir=" +getNextSortDir('lastmod') +"\">Lastmodified</A>";
+}
+
+
+</script>
+</head>
+
+<body onLoad="getList();">
+
+<div id="container">
+
+<h1>codepirat.es</h1>
+
+<p>Here are all the projects plundered on <a href="http://codepirat.es/">The Github Pirates</a></p>
+
+<div id="bucket_list" class="links">
+
+</div>
+
+</div>  <!-- container -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33599694-10']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
