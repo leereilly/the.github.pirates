@@ -2,8 +2,8 @@
 <html>
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-<meta name="description" content="Amazon S3 Listing for items in The Github Pirates" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Amazon S3 Listing for items in The Octo Pirates" />
 
 <title>codepirat.es | S3 File Listing</title>
 
@@ -12,7 +12,7 @@ a {
 color: #77aaff;
 text-decoration: none;
 }
- 
+
 a:hover {
 color: #88bbff;
 text-decoration: underline;
@@ -20,14 +20,14 @@ text-decoration: underline;
 
 a#viewSource {
 display: block;
-margin: 30px 0 0 0; 
+margin: 30px 0 0 0;
 border-top: 1px solid #999;
 padding: 20px 0 0 0;
 }
- 
+
 div .links a {
 display: block;
-line-height: 2em; 
+line-height: 2em;
 }
 
 body {
@@ -38,7 +38,7 @@ padding: 50px;
 
 button {
 margin: 0 10px 0 0;
-/* 
+/*
 padding: 5px;
 min-width: 70px;
 font-size: 1.2em;
@@ -48,18 +48,18 @@ font-size: 1.2em;
 button[disabled] {
 color: white;
 }
- 
+
 div#container {
 background: #000;
 margin: 0 auto 0 auto;
 padding: 20px 30px 20px 30px;
 max-width: 720px;
 }
- 
+
 * html div#container {
 width: 540px;
 }
- 
+
 h1 {
 border-bottom: 1px solid #aaa;
 color: white;
@@ -67,7 +67,7 @@ font-family: Arial, sans-serif;
 margin: 0 0 30px 0;
 padding: 0 0 10px 0;
 }
- 
+
 h2 {
 color: #ccc;
 font-family: Arial, sans-serif;
@@ -75,15 +75,15 @@ margin: 30px 0 0 0;
 }
 
 html {
-/* avoid annoying page width change 
+/* avoid annoying page width change
 when moving from the home page */
 overflow-y: scroll;
 }
- 
+
 img {
 border: none;
 }
- 
+
 p {
 color: #eee;
 font-size: 18px;
@@ -157,21 +157,21 @@ function createRequestObject(){
 	return request_o; //return the object
 }
 
-/* You can get more specific with version information by using 
+/* You can get more specific with version information by using
 	parseInt(navigator.appVersion)
-	Which will extract an integer value containing the version 
+	Which will extract an integer value containing the version
 	of the browser being used.
 */
 /* The variable http will hold our new XMLHttpRequest object. */
-var http = createRequestObject(); 
+var http = createRequestObject();
 function getList(){
 	http.open('get', location.protocol+'//'+location.hostname);
-	http.onreadystatechange = handleList; 
+	http.onreadystatechange = handleList;
 	http.send(null);
 }
 
 function handleList(){
-	/* Make sure that the transaction has finished. The XMLHttpRequest object 
+	/* Make sure that the transaction has finished. The XMLHttpRequest object
 		has a property called readyState with several states:
 		0: Uninitialized
 		1: Loading
@@ -180,7 +180,7 @@ function handleList(){
 		4: Finished */
 	if(http.readyState == 4){ //Finished loading the response
 		/* We have got the response from the server-side script,
-			let's see just what it was. using the responseText property of 
+			let's see just what it was. using the responseText property of
 			the XMLHttpRequest object. */
 		var response = http.responseXML;
 
@@ -189,7 +189,7 @@ filex = response.getElementsByTagName('Contents');
 
 res = '';
 fileList = new Array();
-for(i=0; i<filex.length; i++){ 
+for(i=0; i<filex.length; i++){
         fileData =new Array();
         fileList[i] = fileData;
 	size = filex[i].getElementsByTagName('Size')[0].firstChild.data;
@@ -229,12 +229,12 @@ var pair = vars[i].split("=");
 if (pair[0] == variable) {
 return pair[1];
 }
-} 
+}
 return null;
 }
 
 
-function sortSize(a,b) { 
+function sortSize(a,b) {
    if(parseInt(a[1]) > parseInt(b[1])) return 1;
    if(parseInt(a[1]) < parseInt(b[1])) return -1;
    return 0;
@@ -247,7 +247,7 @@ function sortLastmod(a,b) {
 }
 function sortLastmodDesc(a,b) { return (-sortLastmod(a,b)); }
 
-function sortName(a,b) { 
+function sortName(a,b) {
    if(a[0] > b[0]) return 1;
    if(a[0] < b[0]) return -1;
    return 0;
@@ -270,7 +270,7 @@ function getLink(){
 }
 
 function getNextSortDir(sortCol){
-  if (sortCol == getQueryVariable("sort")) 
+  if (sortCol == getQueryVariable("sort"))
       return getQueryVariable("sortdir") == 'desc' ? 'asc' : 'desc';
   return 'asc'
 }
@@ -295,7 +295,7 @@ function getLinkLastmod(){
 
 <h1>codepirat.es</h1>
 
-<p>Here are all the projects plundered on <a href="http://codepirat.es/">The Github Pirates</a></p>
+<p>Here are all the projects plundered on <a href="http://codepirat.es/">The Octo Pirates</a></p>
 
 <div id="bucket_list" class="links">
 

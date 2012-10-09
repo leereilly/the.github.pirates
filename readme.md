@@ -1,4 +1,4 @@
-## The Github Pirates
+## The Octo Pirates
 
 ### Let's Curate Github!
 
@@ -14,45 +14,45 @@ S3 Listing of all plunders: [http://s3.codepirat.es.s3.amazonaws.com/index.html]
 
 Last Updated: February 12, 2012
 
-You are browsing the Github home of **The Github Pirates**
+You are browsing the Github home of **The Octo Pirates**
 
 ----------
 
 ![alt text][5]
 
-The Github Pirates is an attempt to make sense of the large amount of frontend web-development gold that exists on Github at the moment. Every now and then, I check the wonderful resource, and more often than not - find a bit of JS/CSS/HTML5 gold pushed to Github.
+The Octo Pirates is an attempt to make sense of the large amount of frontend web-development gold that exists on Github at the moment. Every now and then, I check the wonderful resource, and more often than not - find a bit of JS/CSS/HTML5 gold pushed to Github.
 
-Github been around a while now, and as any web developer knows, it can be hard to sift through the noise that is currently abound on Github; particularly over the last 6 months, I have seen a rise of fellow githubbers releasing pretty much everything they have in their arsenal of Web development tools.  
-  
-Whilst this is important, and shouldn't go overlooked, I feel, as ever, there is a large propensity towards noise as a result.  
-Enter The Github Pirates. You see, I roam the Github badlands, late at night, in search for trinkets and gems of web development awesome-ness.  
-  
-When I download the scripts, I often feel I own a bit of history, because as anyone will tell you - the internet is forever changing. Sure, all the mega-brands, and mega-sites will always be there, but I often feel compelled to mirror things when I get an inkling it won't be around much longer.  
-  
-Github shutting down? Well hardly, but they are a free service, and I am always wary of anything 'free' on the net. Especially 'services' that honeypot user generated content. Sure, Github has paid plans for the big boys, but I do worry about everyday Joe who relies on Github on a daily basis to sustain his repo indefinetly, and keep it there when times get bad.  
-  
-Solutions?  
-Get involved in the Github Pirates! A museum for quality web-dev related Github content.
+Github been around a while now, and as any web developer knows, it can be hard to sift through the noise that is currently abound on Github; particularly over the last 6 months, I have seen a rise of fellow githubbers releasing pretty much everything they have in their arsenal of Web development tools.
+
+Whilst this is important, and shouldn't go overlooked, I feel, as ever, there is a large propensity towards noise as a result.
+Enter The Octo Pirates. You see, I roam the Github badlands, late at night, in search for trinkets and gems of web development awesome-ness.
+
+When I download the scripts, I often feel I own a bit of history, because as anyone will tell you - the internet is forever changing. Sure, all the mega-brands, and mega-sites will always be there, but I often feel compelled to mirror things when I get an inkling it won't be around much longer.
+
+Github shutting down? Well hardly, but they are a free service, and I am always wary of anything 'free' on the net. Especially 'services' that honeypot user generated content. Sure, Github has paid plans for the big boys, but I do worry about everyday Joe who relies on Github on a daily basis to sustain his repo indefinetly, and keep it there when times get bad.
+
+Solutions?
+Get involved in the Octo Pirates! A museum for quality web-dev related Github content.
 [http://codepirat.es/][6]
-  
-Self host your own Github, with Gitlab!  
+
+Self host your own Github, with Gitlab!
 [http://gitlabhq.com/][7]
 
-Download The Pirate Chest Of Github Web-Dev Gold:  
+Download The Pirate Chest Of Github Web-Dev Gold:
 [https://gist.github.com/1809637][8]
-  
-The Chest is a collection of handpicked repos gathered from all over Github, and hosted / backed up at various multiple locations for the following reasons:  
+
+The Chest is a collection of handpicked repos gathered from all over Github, and hosted / backed up at various multiple locations for the following reasons:
 
 *   Ease of reference
 *   Quality
 *   Preservation
 *   Exposure
 
-The repos you submit must be coded in either HTML5/CSS3, or JavaScript.  
-  
-The project is a community based effort, and invites users of any skill level to suggest additions, or modifications to the project.  
-  
-Once your project has been submitted through the site it will be reviewed by The Curator and added to the main repo. As mentioned earlier, if you want a little more exposure for your repo, this is where you do it. The Curator is looking for high-quality code only. Please read the description about what constitutes high-quality before submitting:  
+The repos you submit must be coded in either HTML5/CSS3, or JavaScript.
+
+The project is a community based effort, and invites users of any skill level to suggest additions, or modifications to the project.
+
+Once your project has been submitted through the site it will be reviewed by The Curator and added to the main repo. As mentioned earlier, if you want a little more exposure for your repo, this is where you do it. The Curator is looking for high-quality code only. Please read the description about what constitutes high-quality before submitting:
 
 *   Is it generally bad-ass enough to be shared with a large audience?
 *   Is it 'bleeding edge'? i.e: Does it use non-standard CSS3 / CSS4 properties?
